@@ -1,0 +1,27 @@
+p
+{
+    font-family: helvetica;
+    font-size: 15px;
+    font-style: italic;
+
+    margin-top: 10px;
+    margin-left: 20px;
+    /* border: 4px dashed rgba(31, 105, 72, 0.69); */
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+
+    color: rgba(203, 70, 130, 1);
+    border-bottom: 4px solid black;
+    border-left: 2px outset red;
+    background-color: white;
+}
+
+body
+{
+    background-image: url('../assets/webBackground.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+}
