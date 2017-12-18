@@ -1,0 +1,128 @@
+/*html{
+    background-color: rgba(0, 43, 54, 0.99)
+}
+*/
+div.blogs
+{
+    font-family: helvetica;
+    font-size: 15px;
+
+    margin-top: 0px;
+    margin-left: 0px;
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+
+
+    color: rgba(150, 150, 150, 0.7);
+
+    border-radius:5px;
+
+    width: 500px;
+}
+
+div.blogs:hover
+{
+    color: rgba(150, 150, 150, 1);
+    
+    background-color: rgb(0, 65, 81);
+}
+
+a
+{
+    color: blue;
+    
+    text-decoration: none;
+}
+
+p.blogID
+{
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    font-size: 20px;
+    font-family: consolas;
+    color: #39B0D5B4;
+}
+
+p.blogText
+{
+    font-size: 14px;
+    
+    border: 0px;
+    border-left: 2px outset rgba(150, 150, 150, 1);
+    
+    padding-right: 10px;
+    padding-left: 10px;
+
+    margin-left: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 20px;
+}
+
+p.blogText:hover
+{
+    border-left: 10px outset rgb(150,70,70);
+    margin-right: 12px;
+}
+
+p.blogText::first-letter
+{
+    font-size: 200%;
+    font-family: Algerian;
+}
+
+body
+{
+    background-color: rgb(0, 43, 54);
+    
+    max-width: 800px;
+    
+    margin: 0 auto;
+}
+
+footer
+{
+    border-top: 1px solid rgba(188, 100, 0, 0.7);
+    
+    color: rgb(150,70,70);
+    
+    text-align: center;
+
+    user-select: none;
+}
+
+.green
+{
+    color: green
+}
+
+.pagetitle
+{
+    border-bottom: 1px solid rgba(188, 100, 0, 0.7);
+
+    user-select: none;
+}
+
+.pagetitle pre
+{
+    color: rgb(255,70,70);
+}
+
+.mainBlog
+{
+    width: 550px;
+    
+    margin: 10px;
+    
+    border-right: 1px solid rgb(100, 100, 100);
+
+    user-select: none;
+}
+
+.mainBlog .subTitle
+{
+    color: rgba(150, 150, 150, 1);
+}
