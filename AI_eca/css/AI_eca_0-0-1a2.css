@@ -36,7 +36,7 @@ h1, h2, h3, h4, h5, h6
 {
 	background-color: #fff;
 	/*box-shadow: 1px #C4C4C4C4;*/
-	min-width: 100%;
+	width: 100%;
 	position: fixed;
 	border-bottom: 5px solid;
 	/*border-bottom-color: linear-gradient( to right, #fff, #eeeeee);*/
@@ -104,6 +104,8 @@ h1, h2, h3, h4, h5, h6
 	background: #fff;
 	text-align: center;
 	padding: 20px;
+
+	width: 100%;
 
 	clear: both;
 }
