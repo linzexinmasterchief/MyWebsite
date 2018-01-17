@@ -102,6 +102,9 @@ body
     height: -20px;
 
     clear: left;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .green

@@ -101,9 +101,11 @@ h1, h2, h3, h4, h5, h6
 
 .tm-footer
 {
+
 	background: #fff;
 	text-align: center;
-	padding: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 
 	width: 100%;
 
