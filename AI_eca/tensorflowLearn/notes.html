@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>AI construction site</title>
-    <link rel="stylesheet" href="css/notes_0-0-1a1.css">
+    <link rel="stylesheet" href="css/notes_0-0-1a2.css">
 </head>
 <body>
 	<header class="tm-header">
@@ -32,20 +32,42 @@
 	<div class="tm-container">
 		<div class="tm-content">
 			<img src="assets/tensorflowTitle.jpg" style="width: 100%">
-			<article>
+
+			<article id="tensorflowNotesTitle">
 				<h2>Tensorflow notes</h2>
-				<p>
+			</article>
+			
+			<article id="tensorflowStucture">
+				<h3>
 					the basic structure of a tensorflow program
+				</h3>
+				<img src="assets/Tensorflow_graphs.png" style="width: 100%">
+			</article>
+
+			<article id="usingTensorboard">
+				<h3>
+					using tensorboard to visualize the model
+				</h3>
+				<img src="assets/MyTensorboard.png" style="width: 100%">
+				<p>
+					put this in your code after the session sess is defined:<br>
+					writer = tf.summary.FileWriter('./graphs', sess.graph)<br>
+					writer.close()<br>
+					<br>
+					use this command in the terminal to start the tensorboard at 127.0.0.1:6006<br>
+					tensorboard --logdir="./graphs"
 				</p>
 			</article>
-			<img src="assets/Tensorflow_graphs.png" style="width: 100%">
+			
 		</div>
 
 		<aside class="tm-sidebar">
 			<div>
 				<h3>other</h3>
 				<ul>
-					<li>item1</li>
+					<a href="#tensorflowNotesTitle">tensorflow notes</a><br>
+					<a href="#tensorflowStucture">- tensorflow structures</a><br>
+					<a href="#usingTensorboard">- using tensorflow</a><br>
 				</ul>
 			</div>
 		</aside>
