@@ -38,9 +38,12 @@ div.blogs:hover
 a
 {
     color: blue;
-    
-    text-decoration: none;
 }
+
+a:link { text-decoration: none;color: blue}
+a:active { text-decoration: blink}
+a:hover { text-decoration: none;color: red} 
+a:visited { text-decoration: none;color: green}
 
 p.blogID
 {
@@ -164,25 +167,4 @@ body
 #menubar a
 {
     margin-left: 10px;
-}
-
-a
-{
-    color: #589795E7;
-    text-decoration: none;
-}
-
-a:hover
-{
-    color: #FEA723B8;
-}
-
-a:active
-{
-    color: #FEA723FF;
-}
-
-a:visited
-{
-    color: #589795E7;
 }

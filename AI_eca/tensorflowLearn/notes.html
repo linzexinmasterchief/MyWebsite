@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>AI construction site</title>
-    <link rel="stylesheet" href="css/notes_0-0-1a2.css">
+    <link rel="stylesheet" href="css/notes.css?v=<?php echo time();?>">
 </head>
 <body>
 	<header class="tm-header">
@@ -44,12 +44,16 @@
 				<img src="assets/Tensorflow_graphs.png" style="width: 100%">
 			</article>
 
+			<article>
+				<p>the code used in this note is <a href="code/u2bTensorflowTutor.py">u2bTensorflowTutor.py</a></p>
+			</article>
+
 			<article id="usingTensorboard">
 				<h3>
 					using tensorboard to visualize the model
 				</h3>
 				<img src="assets/MyTensorboard.png" style="width: 100%">
-				<p>
+				<p class="code_present">
 					put this in your code after the session sess is defined:<br>
 					writer = tf.summary.FileWriter('./graphs', sess.graph)<br>
 					writer.close()<br>

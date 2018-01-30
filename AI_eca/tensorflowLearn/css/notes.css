@@ -14,6 +14,7 @@ p
 	margin-bottom: 20px;
 
 	padding: 5px;
+	line-height: 25px;
 
 	background-color: #FFF;
 }
@@ -133,4 +134,12 @@ h1, h2, h3, h4, h5, h6
 .tm-sidebar div ul li
 {
 	margin-left: 20px;
+}
+
+p.code_present
+{
+	padding: 30px;
+	background-color: #aeaeae;
+	color: #ffffff;
+	border-radius:5px;
 }
