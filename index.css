@@ -32,24 +32,13 @@ footer
 
 a
 {
-    color: orange;
-    text-decoration: none;
+    color: #486FB6FF;
 }
 
-a:hover
-{
-    color: red;
-}
-
-a:active
-{
-    color: green;
-}
-
-a:visited
-{
-    color: orange;
-}
+a:link { text-decoration: none;color: #486FB6FF}
+a:active { text-decoration: blink}
+a:hover { text-decoration: none;color: red} 
+a:visited { text-decoration: none;color: #486FB6FF}
 
 #btn
 {

@@ -9,11 +9,6 @@ n_nodes_hl3 = 500
 
 n_classes = 10
 
-batch_size = 100
-
-x = tf.placeholder('float', [None, 784])
-y = tf.placeholder('float')
-
 def neural_network_model(data):
 
     hidden_1_layer = {
@@ -50,11 +45,19 @@ def neural_network_model(data):
     output = tf.add(tf.matmul(l3, output_layer['weights']), output_layer['biases'])
     return output
 
-def train_neural_network(x):
-    global prediction
+def train_neural_network():
+    batch_size = 100
+
+    x = tf.placeholder('float', [None, 784])
+    y = tf.placeholder('float')
+
+    prediction = neural_network_model(x)
+    # prediction =
     cost = tf.reduce_mean(tf.nn.softmax_cross_entropy_with_logits(labels=y, logits=prediction))
 
     optimizer = tf.train.AdamOptimizer().minimize(cost)
+    tf.add_to_collection('prediction', prediction)
+    tf.add_to_collection('x', x)
 
     hm_epochs = 10
 
@@ -78,40 +81,35 @@ def train_neural_network(x):
 
         saver = tf.train.Saver()
         saver.save(sess, 'model/model.ckpt')
-        # saver.save(prediction, 'model/prediction')
 
     writer.close()
 
 def appli():
     sess = tf.Session()
-    # prediction = neural_network_model(x)
+    # sess.run(tf.initialize_all_variables())
     new_saver = tf.train.import_meta_graph('model/model.ckpt.meta')
     new_saver.restore(sess, tf.train.latest_checkpoint('model/'))
-    # new_saver = tf.train.import_meta_graph('model/prediction.meta')
-    # new_saver.restore(prediction, tf.train.latest_checkpoint('model/'))
-    # saver2.restore(sess, 'model/model.ckpt')
+    prediction = tf.get_collection('prediction')[0]
+    x = tf.get_collection('x')[0]
 
     from matplotlib import pyplot as plt
 
     from PIL import Image
     import numpy as np
-    img = np.array(Image.open('test2.bmp').convert('L'))
-    rows, cols = img.shape
-    for i in range(rows):
-        for j in range(cols):
-            if img[i, j] <= 128:
-                img[i, j] = 1
-            else:
-                img[i, j] = 0
+    img = np.array(Image.open('test4.bmp'))
+
+    # from random import randint
+    # num = randint(0, mnist.test.images.shape[0])
+    # img = mnist.test.images[num]
+
     img = img.reshape(1, 784)
     feed_dict = {x: img}
     y_pred = sess.run(tf.argmax(prediction, 1), feed_dict=feed_dict)
 
-    # classification = sess.run(tf.argmax(y, 1), feed_dict={x: [x]})
     plt.imshow(img.reshape(28, 28), cmap=plt.cm.binary)
     plt.show()
     print('NN predicted', y_pred[0])
 
-prediction = neural_network_model(x)
-train_neural_network(x)
+
+train_neural_network()
 appli()

@@ -45,7 +45,12 @@
 			</article>
 
 			<article>
-				<p>the code used in this note is <a href="code/u2bTensorflowTutor.py">u2bTensorflowTutor.py</a></p>
+				<p id="u2bTensorflowTutor">
+					<h3>This is the first tensorflow neural network that I made</h3><br>
+					the code used in this note is <a href="code/u2bTensorflowTutor.py">u2bTensorflowTutor.py</a><br>
+					<br>
+					this code is currently able to train and save the tensorflow models, the critical variables to be save are the "x" and "sess", x indicates the input matrix ["none", 784] (the pictures are 28 x 28 pixels large, therefore 784 pixels are used, the idea of the input layer is that the pictures are "flattened" from a two dimension matrix to a one dimension matrix. Although this operation destroyed the 2D construct of the picture, it made the picture data easier for tensorflow network to process. By the way, the parameter "none" means "any number", which means the matrix could contain any amount of images)
+				</p>
 			</article>
 
 			<article id="usingTensorboard">
@@ -70,8 +75,8 @@
 				<h3>other</h3>
 				<ul>
 					<a href="#tensorflowNotesTitle">tensorflow notes</a><br>
-					<a href="#tensorflowStucture">- tensorflow structures</a><br>
-					<a href="#usingTensorboard">- using tensorflow</a><br>
+					<a href="#tensorflowStucture">--->tensorflow structures</a><br>
+					<a href="#usingTensorboard">--->using tensorboard</a><br>
 				</ul>
 			</div>
 		</aside>

@@ -37,13 +37,13 @@ div.blogs:hover
 
 a
 {
-    color: blue;
+    color: #486FB6FF;
 }
 
-a:link { text-decoration: none;color: blue}
+a:link { text-decoration: none;color: #486FB6FF}
 a:active { text-decoration: blink}
 a:hover { text-decoration: none;color: red} 
-a:visited { text-decoration: none;color: green}
+a:visited { text-decoration: none;color: #486FB6FF}
 
 p.blogID
 {
