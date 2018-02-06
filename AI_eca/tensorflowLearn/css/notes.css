@@ -19,6 +19,19 @@ p
 	background-color: #FFF;
 }
 
+p.code_present
+{
+	padding: 30px;
+	background-color: #aeaeae;
+	color: #ffffff;
+	border-radius:5px;
+}
+
+p.normal_paragraph
+{
+	margin: 20px;
+}
+
 article
 {
 	background-color: #fff;
@@ -144,12 +157,4 @@ a:visited { text-decoration: none;color: #486FB6FF}
 .tm-sidebar div ul li
 {
 	margin-left: 20px;
-}
-
-p.code_present
-{
-	padding: 30px;
-	background-color: #aeaeae;
-	color: #ffffff;
-	border-radius:5px;
 }
