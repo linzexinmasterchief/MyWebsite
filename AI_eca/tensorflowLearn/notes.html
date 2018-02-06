@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>AI construction site</title>
     <link rel="stylesheet" href="css/notes.css?v=<?php echo time();?>">
+    <link rel="icon" href="../assets/icon.jpg" />
 </head>
 <body>
 	<header class="tm-header">
@@ -49,6 +50,7 @@
 				
 				<p class="normal_paragraph">
 					the code used in this note is <a href="code/u2bTensorflowTutor.py">u2bTensorflowTutor.py</a><br>
+					github repository: <a href="https://github.com/linzexinmasterchief/TensorflowLearn">https://github.com/linzexinmasterchief/TensorflowLearn</a><br>
 					<br>
 					this code is currently able to train and save the tensorflow models, the critical variables to be save are the "x" and "sess", x indicates the input matrix ["none", 784] (the pictures are 28 x 28 pixels large, therefore 784 pixels are used, the idea of the input layer is that the pictures are "flattened" from a two dimension matrix to a one dimension matrix. Although this operation destroyed the 2D construct of the picture, it made the picture data easier for tensorflow network to process. By the way, the parameter "none" means "any number", which means the matrix could contain any amount of images)
 				</p>
