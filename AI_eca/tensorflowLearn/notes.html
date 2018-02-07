@@ -52,7 +52,9 @@
 					the code used in this note is <a href="code/u2bTensorflowTutor.py">u2bTensorflowTutor.py</a><br>
 					github repository: <a href="https://github.com/linzexinmasterchief/TensorflowLearn">https://github.com/linzexinmasterchief/TensorflowLearn</a><br>
 					<br>
-					this code is currently able to train and save the tensorflow models, the critical variables to be save are the "x" and "sess", x indicates the input matrix ["none", 784] (the pictures are 28 x 28 pixels large, therefore 784 pixels are used, the idea of the input layer is that the pictures are "flattened" from a two dimension matrix to a one dimension matrix. Although this operation destroyed the 2D construct of the picture, it made the picture data easier for tensorflow network to process. By the way, the parameter "none" means "any number", which means the matrix could contain any amount of images)
+					this code is currently able to train and save the tensorflow models, the critical variables to be save are the "x" and "sess", x indicates the input matrix ["none", 784] (the pictures are 28 x 28 pixels large, therefore 784 pixels are used, the idea of the input layer is that the pictures are "flattened" from a two dimension matrix to a one dimension matrix. Although this operation destroyed the 2D construct of the picture, it made the picture data easier for tensorflow network to process. By the way, the parameter "none" means "any number", which means the matrix could contain any amount of images)<br>
+					<br>
+					I've made a lot of comments in the code in order for you to understand
 				</p>
 			</article>
 
@@ -70,6 +72,13 @@
 					tensorboard --logdir="./graphs"
 				</p>
 			</article>
+
+			<article id="dataFlowGraphs">
+				<h3>
+					the graph of a data flow
+				</h3>
+				<img src="assets/tensors_flowing.gif" style="width: 35%">
+			</article>
 			
 		</div>
 
@@ -79,7 +88,9 @@
 				<ul>
 					<a href="#tensorflowNotesTitle">tensorflow notes</a><br>
 					<a href="#tensorflowStucture">--->tensorflow structures</a><br>
+					<a href="#u2bTensorflowTutor">--->u2bTensorflowTutor</a><br>
 					<a href="#usingTensorboard">--->using tensorboard</a><br>
+					<a href="#dataFlowGraphs">--->dataFlowGraphs</a>
 				</ul>
 			</div>
 		</aside>
