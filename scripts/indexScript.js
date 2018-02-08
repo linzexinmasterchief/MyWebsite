@@ -1,0 +1,1 @@
+alert("Welecom to webDrag0n's index page!");

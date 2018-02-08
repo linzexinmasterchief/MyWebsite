@@ -41,9 +41,9 @@ a
 }
 
 a:link { text-decoration: none;color: #486FB6FF}
-a:active { text-decoration: blink}
-a:hover { text-decoration: none;color: red} 
 a:visited { text-decoration: none;color: #486FB6FF}
+a:hover { text-decoration: none;color: red} 
+a:active { text-decoration: blink}
 
 p.blogID
 {
@@ -81,6 +81,28 @@ p.blogText::first-letter
 {
     font-size: 200%;
     font-family: Algerian;
+}
+
+ol.blogText
+{
+    font-size: 14px;
+    
+    border: 0px;
+    border-left: 2px outset rgba(150, 150, 150, 1);
+    
+    padding-right: 10px;
+    padding-left: 30px;
+
+    margin-left: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+}
+
+ol.blogText:hover
+{
+    border-left: 10px outset rgb(150,70,70);
+    margin-right: 2px;
 }
 
 body
@@ -167,4 +189,6 @@ body
 #menubar a
 {
     margin-left: 10px;
+    font-size: 12px;
+    font-family: Consolas
 }
