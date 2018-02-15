@@ -1,0 +1,154 @@
+html{
+    background-color: #FFA800FF;
+    overflow: hidden;
+}
+div.blogs
+{
+    font-family: helvetica;
+    font-size: 15px;
+
+    margin-top: 0px;
+    margin-left: 0px;
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+
+
+    color: rgba(150, 150, 150, 0.7);
+
+    border-radius:5px;
+
+    width: 530px;
+}
+
+div.mainPageContent
+{
+    height: auto;
+    text-align: center;
+    font-family: "Microsoft YaHei" ! important;
+    font-size: 50px;
+    color: #FFB800FF
+    /*border: 2px solid red*/
+}
+
+p.blogID
+{
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    font-size: 12px;
+    font-family: consolas;
+    color: #39B0D5B4;
+}
+
+p.blogText
+{
+    font-size: 14px;
+    
+    border: 0px;
+    border-left: 2px outset rgba(150, 150, 150, 1);
+    
+    padding-right: 10px;
+    padding-left: 10px;
+
+    margin-left: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+}
+
+p.blogText::first-letter
+{
+    font-size: 200%;
+    font-family: Algerian;
+}
+
+
+body
+{
+    background-color: #E9151EFF;
+    
+    max-width: 800px;
+    
+    margin: 0 auto;
+}
+
+.footer
+{
+    border-top: 1px solid rgba(188, 100, 0, 0.7);
+    
+    color: rgb(150,70,70);
+    
+    text-align: center;
+
+    user-select: none;
+
+    height: -20px;
+
+    clear: left;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.green
+{
+    color: green
+}
+
+.pagetitle
+{
+    border-bottom: 1px solid rgba(188, 100, 0, 0.7);
+    color: rgb(255,70,70);
+
+    user-select: none;
+
+    display: block;
+}
+
+.mainBlog
+{
+    margin: 10px;
+    margin-right: 0px;
+
+    padding: 0px;
+    padding-right: 5px;
+
+    border-right: 1px solid rgb(100, 100, 100);
+
+    width: 70%;
+    /*height: 600px;*/
+
+    user-select: none;
+
+    /*display: inline-block;*/
+    float: left;
+}
+
+.mainBlog .subTitle
+{
+    color: rgba(150, 150, 150, 1);
+}
+
+#menubar
+{
+    margin: 10px;
+    margin-left: 0px;
+    padding-left: 10px;
+
+    width: 25%;
+
+    user-select: none;
+
+    color: #FF6A0080;
+
+    float: left;
+}
+
+#menubar a
+{
+    margin-left: 10px;
+    font-size: 12px;
+    font-family: Consolas
+}
