@@ -79,6 +79,16 @@
 				</h3>
 				<img src="assets/tensors_flowing.gif" style="width: 35%">
 			</article>
+
+			<article id="convolutional_neural_network">
+				<h3>
+					the use of <i>CNN (convolutional neural network)</i>
+				</h3>
+				<p class="normal_paragraph">
+					the use of CNN provide artificial intelligences the ability to identify structured data matrix such as pictures, in the previous approches, our AI could only first flatten the 2D picture into a 1D array, then find the patterns of 0 and 1s. However, that approach obviously destroyed some critical informations, for example: the relative postion of each object, the relationship between different parts of the picture... Therefore, we need a new model, which is CNN.<br>
+					the theory of CNN itself is pretty simple and straight forward: it is like using a magnifier to scan a map, but in the opposite way. The program will first use the smallest square: 5x5 for example, so small details like curves, vertical lines, and horizontal lines. The small square will move a little at a time(1 step could be 1px, 2px .etc), the scanner square itself is also a matrix which contains the special pattern it want to detect, in each step, the matrix is the square will be doing a dot product with the square scanned by the square: this is called a convolution.<br>
+				</p>
+			</article>
 			
 		</div>
 
@@ -87,10 +97,11 @@
 				<h3>other</h3>
 				<ul>
 					<a href="#tensorflowNotesTitle">tensorflow notes</a><br>
-					<a href="#tensorflowStucture">--->tensorflow structures</a><br>
-					<a href="#u2bTensorflowTutor">--->u2bTensorflowTutor</a><br>
-					<a href="#usingTensorboard">--->using tensorboard</a><br>
-					<a href="#dataFlowGraphs">--->dataFlowGraphs</a>
+					<a href="#tensorflowStucture">---> tensorflow structures</a><br>
+					<a href="#u2bTensorflowTutor">---> u2bTensorflowTutor</a><br>
+					<a href="#usingTensorboard">---> using tensorboard</a><br>
+					<a href="#dataFlowGraphs">---> dataFlowGraphs</a><br>
+					<a href="#convolutional_neural_network">---> convolutionalNeuralNetwork</a>
 				</ul>
 			</div>
 		</aside>
