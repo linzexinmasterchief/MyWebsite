@@ -12,7 +12,7 @@ body
 p
 {
 	margin: 10px;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 
 	padding: 5px;
 	line-height: 25px;
@@ -21,12 +21,20 @@ p
 article
 {
 	background-color: #fff;
-	padding: 10px;
+	margin-top: 10px;
+	box-shadow: 3px 3px 3px #C4C4C4C4;
 }
 
 h1, h2, h3, h4, h5, h6
 {
 	margin-bottom: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+h2, h3, h4, h5, h6
+{
+	margin-left: 20px;
 }
 
 a
@@ -48,12 +56,11 @@ a:active { text-decoration: blink}
 .tm-header
 {
 	background-color: #fff;
-	/*box-shadow: 1px #C4C4C4C4;*/
+	box-shadow: 0px 4px 4px #C4C4C4C4;
 	width: 100%;
 	position: fixed;
-	border-bottom: 5px solid;
+	/*border-bottom: 5px solid #eeeeee;*/
 	/*border-bottom-color: linear-gradient( to right, #fff, #eeeeee);*/
-	border-bottom-color: #eeeeee;
 	user-select: none;
 }
 
@@ -127,6 +134,8 @@ a:active { text-decoration: blink}
 
 .tm-sidebar
 {
+	margin-top: 70px;
+
 	padding-top:80px;
 
 	width: 25%;
@@ -138,6 +147,7 @@ a:active { text-decoration: blink}
 {
 	background-color: #fff;
 	padding: 30px;
+	box-shadow: 3px 3px 3px #C4C4C4C4;
 }
 
 .tm-sidebar div ul li

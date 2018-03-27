@@ -4,7 +4,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>AI construction site</title>
-    <link rel="stylesheet" href="css/notes.css?v=<?php echo time();?>">
+    <!-- <link rel="stylesheet" href="css/notes.css?v=<?php echo time();?>"> -->
+    <link rel="stylesheet" href="../css/AI_eca.css?v=<?php echo time();?>">
     <link rel="icon" href="../assets/icon.jpg" />
 </head>
 <body>
@@ -32,10 +33,9 @@
 
 	<div class="tm-container">
 		<div class="tm-content">
-			<img src="assets/tensorflowTitle.jpg" style="width: 100%">
-
 			<article id="tensorflowNotesTitle">
 				<h2>Tensorflow notes</h2>
+				<img src="assets/tensorflowTitle.jpg" style="width: 100%">
 			</article>
 			
 			<article id="tensorflowStucture">
@@ -86,8 +86,10 @@
 				</h3>
 				<p class="normal_paragraph">
 					the use of CNN provide artificial intelligences the ability to identify structured data matrix such as pictures, in the previous approches, our AI could only first flatten the 2D picture into a 1D array, then find the patterns of 0 and 1s. However, that approach obviously destroyed some critical informations, for example: the relative postion of each object, the relationship between different parts of the picture... Therefore, we need a new model, which is CNN.<br>
-					the theory of CNN itself is pretty simple and straight forward: it is like using a magnifier to scan a map, but in the opposite way. The program will first use the smallest square: 5x5 for example, so small details like curves, vertical lines, and horizontal lines. The small square will move a little at a time(1 step could be 1px, 2px .etc), the scanner square itself is also a matrix which contains the special pattern it want to detect, in each step, the matrix is the square will be doing a dot product with the square scanned by the square: this is called a convolution.<br>
+					the theory of CNN itself is pretty simple and straight forward: it is like using a magnifier to scan a map, but in the opposite way. The program will first use the smallest square: 5x5 for example, small details like curves, vertical lines, and horizontal lines. The small square will move a little at a time(1 step could be 1px, 2px .etc), the scanner square itself is also a matrix which contains the special pattern it want to detect, in each step, the matrix is the square will be doing a dot product with the square scanned by the square: this is called a convolution.<br>
 				</p>
+				<img src="assets/visualizeCNN.png" width="100%">
+				<a href="http://scs.ryerson.ca/~aharley/vis/conv/" style="padding-left: 25%;">scs.ryerson.ca/~aharley/vis/conv/</a> visualized this process.
 			</article>
 			
 		</div>
