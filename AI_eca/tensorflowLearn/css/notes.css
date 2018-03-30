@@ -1,160 +1,23 @@
-*{
+.titleButton
+{
+	width: 100%;
 	margin: 0px;
-	padding: 0px;
-}
-
-body
-{
-	background-color: #eeeeee;
-}
-
-p
-{
-	margin: 10px;
-	margin-bottom: 20px;
-
-	padding: 5px;
-	line-height: 25px;
-
-	background-color: #FFF;
-}
-
-p.code_present
-{
-	padding: 30px;
-	background-color: #aeaeae;
-	color: #ffffff;
-	border-radius:5px;
-}
-
-p.normal_paragraph
-{
-	margin: 20px;
-}
-
-article
-{
-	background-color: #fff;
 	padding: 10px;
-	margin-bottom: 5px;
+	border: 0px;
+	background-color: #fafafa;
+	font-family: Consolas;
+	font-size: 20px;
+	color: #FAB604FF;
 }
 
-h1, h2, h3, h4, h5, h6
+.titleButton:hover
 {
-	margin-bottom: 10px;
-}
-
-a
-{
-    color: #486FB6FF;
-}
-
-a:link { text-decoration: none;color: #486FB6FF}
-a:visited { text-decoration: none;color: #486FB6FF}
-a:hover { text-decoration: none;color: red} 
-a:active { text-decoration: blink}
-
-.tm-container
-{
-	width: 1200px;
-	margin: 0 auto;
-}
-
-.tm-header
-{
-	background-color: #fff;
-	/*box-shadow: 1px #C4C4C4C4;*/
 	width: 100%;
-	position: fixed;
-	border-bottom: 5px solid;
-	/*border-bottom-color: linear-gradient( to right, #fff, #eeeeee);*/
-	border-bottom-color: #eeeeee;
-	user-select: none;
-}
-
-.tm-header::after
-{
-	background-color: #eeeeee;
-	clear: both;
-	display: block;
-}
-
-.tm-nav
-{
-	float: right;
-}
-
-.tm-nav ul li
-{
-	display: inline-block;
-}
-
-.tm-nav ul li a
-{
-	text-decoration: none;
-	padding: 10px 20px;
-	color: #303030;
-	line-height: 70px;
-}
-
-.tm-nav ul li a:hover
-{
-	color: #3e99ff;
-	background: #eeeeee;
-}
-
-.tm-logo
-{
-	float: left;
-}
-
-.tm-content
-{
-	padding-top:80px;
-	padding-bottom: 10px;
-
-	float: left;
-
-	width: 70%;
-}
-
-.ecaTitle
-{
-	text-decoration: none;
-	padding: 0px 20px;
-	color: #303030;
-	line-height: 70px;
-	float: left;
-}
-
-.tm-footer
-{
-	background: #fff;
-	text-align: center;
-	padding-top: 20px;
-	padding-bottom: 20px;
-
-	width: 100%;
-
-	clear: both;
-}
-
-.tm-sidebar
-{
-	padding-top:80px;
-
-	width: 25%;
-
-	float: right;
-}
-
-.tm-sidebar div
-{
-	background-color: #fff;
-	padding: 30px;
-}
-
-.tm-sidebar div ul li
-{
-	margin-left: 20px;
+	margin: 0px;
+	padding: 10px;
+	border: 0px;
+	background-color: #afefff91;
+	font-family: Consolas;
+	font-size: 20px;
+	color: #FAB604FF;
 }
