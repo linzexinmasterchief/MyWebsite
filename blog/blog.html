@@ -7,11 +7,13 @@
     <title>webDrag0n's blog</title>
     <link rel="stylesheet" href="css/blog.css?v=<?php echo time();?>">
     <link rel="icon" href="assets/ic_launcher.png" />
+    <script type="text/javascript" src="scripts/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="scripts/getBlogJson.js"></script>
 </head>
 
 <body>
     <header class="pagetitle">
-        <pre>
+        <pre style="padding-left: 100px;">
                   __      ______                        ____
                  /\ \    /\  _  \                      / __ \
  __  __  __   ___\ \ \___\ \ \/\ \  _____  ____    ___/\ \/\ \  _____
@@ -25,197 +27,15 @@
     </header>
 
     <!--main blog-->
-    <div class="mainBlog">
-
-        <h3 class="subTitle">Stream record</h3>
-
-        <div id="0x0000" class="blogs">
-            <p class="blogID">0x0000</p>
-            <p class="blogText">
-                this is a blog that records my developments.
-            </p>
-        </div>
-
-        <div id="0x0001" class="blogs">
-            <p class="blogID">0x0001</p>
-            <p class="blogText">
-                start.
-            </p>
-        </div>
-
-        <div id="0x0002" class="blogs">
-            <p class="blogID">0x0002 2017/12/16/18/53</p>
-            <p class="blogText">
-                learned a <strong>little</strong> about <spam class="green">raw text</spam> display in <em>html</em> I will start to record time from now on.
-            </p>
-        </div>
-        
-        <div id="0x0003" class="blogs">
-            <p class="blogID">0x0003 2017/12/18/14/56</p>
-            <p class="blogText">
-                learned how to change backgrounds and interact with the webpage the new update let the focused blog (with mouse on it) to change color.
-            </p>
-        </div>
-
-        <div id="0x0004" class="blogs">
-            <p class="blogID">0x0004 2017/12/19/10/15</p>
-            <p class="blogText">
-                added a menu to the blog page for teleportation, added more fun actions.
-            </p>
-        </div>
-
-        <div id="0x0005" class="blogs">
-            <p class="blogID">0x0005 2017/12/19/18/09</p>
-            <p class="blogText">
-                created a seperated webpage for artificial intelligence eca, I added a bunch of interesting stuff in there and used some special effects, it is
-                really cool. You are more than just welecom to take a look at that <a href="../AI_eca/AI_eca.html">website</a>.
-            </p>
-        </div>
-
-        <div id="0x0006" class="blogs">
-            <p class="blogID">0x0006 2018/1/17/14/57</p>
-            <p class="blogText">
-                add a new web page called the tensorflow notes to record anything we learn about tensorflow<br><br>
-                modified the AIC site and creates a link to the new tensorflow note website<br><br>
-                modified the log page and recorded the change briefly
-            </p>
-        </div>
-
-        <div id="0x0007" class="blogs">
-            <p class="blogID">0x0007 2018/1/18/15/18</p>
-            <p class="blogText">
-                add tensorboard tutorial to tensorflow notes, modified the css file about artical to make it looks better.
-                The lol background in main page is also deleted for safty reasons.
-            </p>
-        </div>
-
-        <div id="0x0008" class="blogs">
-            <p class="blogID">0x0008 2018/1/30/17/41</p>
-            <p class="blogText">
-                increased the line height in AI ECA website and tensorflow notes. add ?v=<?php echo time();?> after .css to make sure the browser reload the css file every time
-                <br>
-                <br>
-                today Balm came here
-            </p>
-        </div>
-
-        <div id="0x0009" class="blogs">
-            <p class="blogID">0x0009 2018/2/5/9/28</p>
-            <p class="blogText">
-                Modified the code "u2bTensorflowTutor.py", more details please refer to the <a href="../AI_eca/tensorflowLearn/notes.html#u2bTensorflowTutor">code note</a> and the <a href="../AI_eca/tensorflowLearn/code/u2bTensorflowTutor.py">source code</a>, upgraded the hyperlink css code.
-            </p>
-        </div>
-
-        <div id="0x0010" class="blogs">
-            <p class="blogID">0x0010 2018/2/6/15/51</p>
-            <p class="blogText">
-                Update the format of tensorflow note, update the copyright
-            </p>
-        </div>
-
-        <div id="0x0011" class="blogs">
-            <p class="blogID">0x0011 2018/2/6/16/26</p>
-            <p class="blogText">
-                added icon to websites.
-            </p>
-        </div>
-
-        <div id="0x0012" class="blogs">
-            <p class="blogID">0x0012 2018/2/7/22/08</p>
-            <p class="blogText">
-                updated the code in tensorflow notes, added comments ---> a lot of comments, also added a nice gif picture showing data flow in a network.
-            </p>
-        </div>
-
-        <div id="0x0013" class="blogs">
-            <p class="blogID">0x0013 2018/2/8/8/50</p>
-            <p class="blogText">
-                A lot of updates are made.
-            </p>
-                <ol class="blogText">
-                    <li>
-                        Firstly, I finally figured out how to use the "hover" attribute even after the link is clicked, the order of css settings are critical.
-                    </li>
-
-                    <li>
-                        Besides that, I also updated the footer of index.html and blog.html to show the copyright.
-                    </li>
-
-                    <li>
-                        At last, a javascript file is made for the index page for testing, I will use this file to learn how to write javascript files for html5.
-                    </li>
-                </ol>
-        </div>
-
-        <div id="0x0014" class="blogs">
-            <p class="blogID">0x0014 2018/2/10/17/51</p>
-            <p class="blogText">
-                Today is the best day ever! I mean, yesturday is the best day.. whatever :P<br>
-                Sorry but I can't post the changes page link this time, this is a private page.<br>
-                By the way, don't try to find the link, trust me, u can't. :)
-            </p>
-        </div>
-
-        <div id="0x0015" class="blogs">
-            <p class="blogID">0x0015 2018/2/15/20/45</p>
-            <p class="blogText">
-                happy new year! I created a funny webpage to celebrate! ----> <a href="../HappyNewYear/toEveryOne.html">link</a>
-            </p>
-        </div>
-
-        <div id="0x0016" class="blogs">
-            <p class="blogID">0x0016 2018/3/23/00/27</p>
-            <p class="blogText">
-                Added a small paragraph about CNN in <a href="../AI_eca/tensorflowLearn/notes.html#convolutional_neural_network">AI_eca/tensorflowLearn</a>, I will probably finish it in a few days.
-            </p>
-        </div>
-
-        <div id="0x0017" class="blogs">
-            <p class="blogID">0x0017 2018/3/29/15/20</p>
-            <p class="blogText">
-                add more fancy effects to the AI_eca page.
-            </p>
-        </div>
-
-        <div id="0x0018" class="blogs">
-            <p class="blogID">0x0018 2018/3/30/09/38</p>
-            <p class="blogText">
-                finished the jquery dynamic button on <a href="../AI_eca/tensorflowLearn/notes.html">tensorflow note page</a>
-            </p>
-        </div>
-
-    </div>
+    <div class="mainBlog" id="blogContainer"></div>
 
     <!--menu bar-->
-    <div id="menubar">
-        menu
-        <br> <a href="#0x0000">0x0000</a>
-        <br> <a href="#0x0001">0x0001</a>
-        <br> <a href="#0x0002">0x0002 | 2017/12/16/18/53</a>
-        <br> <a href="#0x0003">0x0003 | 2017/12/18/14/56</a>
-        <br> <a href="#0x0004">0x0004 | 2017/12/19/10/15</a>
-        <br> <a href="#0x0005">0x0005 | 2017/12/19/18/09</a>
-        <br> <a href="#0x0006">0x0006 | 2018/1/17/14/57</a>
-        <br> <a href="#0x0007">0x0007 | 2018/1/18/15/18</a>
-        <br> <a href="#0x0008">0x0008 | 2018/1/30/17/41</a>
-        <br> <a href="#0x0009">0x0009 | 2018/2/5/9/28</a>
-        <br> <a href="#0x0010">0x0010 | 2018/2/5/9/28</a>
-        <br> <a href="#0x0011">0x0011 | 2018/2/6/16/26</a>
-        <br> <a href="#0x0012">0x0012 | 2018/2/7/22/08</a>
-        <br> <a href="#0x0013">0x0013 | 2018/2/8/8/50</a>
-        <br> <a href="#0x0014">0x0014 | 2018/2/10/17/51</a>
-        <br> <a href="#0x0015">0x0015 | 2018/2/15/20/45</a>
-        <br> <a href="#0x0016">0x0016 | 2018/3/23/00/27</a>
-        <br> <a href="#0x0017">0x0017 | 2018/3/29/15/20</a>
-        <br> <a href="#0x0017">0x0018 | 2018/3/30/09/38</a>
-    </div>
-
+    <div id="menubar"></div>
 
     <div class="footer">
         <span style="font-size: 12px">page powered by</span> webDragon &nbsp|&nbsp &copy; copyright webDrag0n 2018
     </div>
 
 </body>
-
 
 </html>

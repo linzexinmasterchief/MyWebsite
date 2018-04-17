@@ -1,0 +1,24 @@
+{   
+	"list":[
+	    { "dateID":"0x0000                 " , "content":"this is a blog that records my developments."},
+	    { "dateID":"0x0001                 " , "content":"start."},
+	    { "dateID":"0x0002 | 2017/12/16/18/53" , "content":"learned a <strong>little</strong> about <spam class=\"green\">raw text</spam> display in <em>html</em> I will start to record time from now on."},
+	    { "dateID":"0x0003 | 2017/12/18/14/56" , "content":"learned how to change backgrounds and interact with the webpage the new update let the focused blog (with mouse on it) to change color."},
+	    { "dateID":"0x0004 | 2017/12/19/10/15" , "content":"added a menu to the blog page for teleportation, added more fun actions."},
+	    { "dateID":"0x0005 | 2017/12/19/18/09" , "content":"created a seperated webpage for artificial intelligence eca, I added a bunch of interesting stuff in there and used some special effects, it is really cool. You are more than just welecom to take a look at that <a href=\"../AI_eca/AI_eca.html\">website</a>."},
+	    { "dateID":"0x0006 | 2018/01/17/14/57" , "content":"add a new web page called the tensorflow notes to record anything we learn about tensorflow<br><br>modified the AIC site and creates a link to the new tensorflow note website<br><br>modified the log page and recorded the change briefly"},
+	    { "dateID":"0x0007 | 2018/01/18/15/18" , "content":"add tensorboard tutorial to tensorflow notes, modified the css file about artical to make it looks better. The lol background in main page is also deleted for safty reasons."},
+	    { "dateID":"0x0008 | 2018/01/30/17/41" , "content":"increased the line height in AI ECA website and tensorflow notes. add ?v=<?php echo time();?> after .css to make sure the browser reload the css file every time<br><br>today Balm came here"},
+	    { "dateID":"0x0009 | 2018/02/05/09/28" , "content":"Modified the code \"u2bTensorflowTutor.py\", more details please refer to the <a href=\"../AI_eca/tensorflowLearn/notes.html#u2bTensorflowTutor\">code note</a> and the <a href=\"../AI_eca/tensorflowLearn/code/u2bTensorflowTutor.py\">source code</a>, upgraded the hyperlink css code."},
+	    { "dateID":"0x0010 | 2018/02/06/15/51" , "content":"Update the format of tensorflow note, update the copyright"},
+	    { "dateID":"0x0011 | 2018/02/06/16/26" , "content":"added icon to websites."},
+	    { "dateID":"0x0012 | 2018/02/07/22/08" , "content":"updated the code in tensorflow notes, added comments ---> a lot of comments, also added a nice gif picture showing data flow in a network."},
+	    { "dateID":"0x0013 | 2018/02/08/08/50" , "content":"A lot of updates are made. <ol class=\"blogText\"><li>Firstly, I finally figured out how to use the \"hover\" attribute even after the link is clicked, the order of css settings are critical.</li><li>Besides that, I also updated the footer of index.html and blog.html to show the copyright.</li><li>At last, a javascript file is made for the index page for testing, I will use this file to learn how to write javascript files for html5.</li></ol>"},
+	    { "dateID":"0x0014 | 2018/02/10/17/51" , "content":"Today is the best day ever! I mean, yesturday is the best day.. whatever :P<br>Sorry but I can't post the changes page link this time, this is a private page.<br>By the way, don't try to find the link, trust me, u can't. :)"},
+	    { "dateID":"0x0015 | 2018/02/15/20/45" , "content":"happy new year! I created a funny webpage to celebrate! ----> <a href=\"../HappyNewYear/toEveryOne.html\">link</a>"},
+	    { "dateID":"0x0016 | 2018/03/23/00/27" , "content":"Added a small paragraph about CNN in <a href=\"../AI_eca/tensorflowLearn/notes.html#convolutional_neural_network\">AI_eca/tensorflowLearn</a>, I will probably finish it in a few days."},
+	    { "dateID":"0x0017 | 2018/03/29/15/20" , "content":"add more fancy effects to the AI_eca page."},
+	    { "dateID":"0x0018 | 2018/03/30/09/38" , "content":"finished the jquery dynamic button on <a href=\"../AI_eca/tensorflowLearn/notes.html\">tensorflow note page</a>"},
+	    { "dateID":"0x0019 | 2018/04/04/16/29" , "content":"Successfully applied json technology to this blog"}
+   	]
+}
