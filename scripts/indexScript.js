@@ -1,1 +1,1 @@
-alert("Welecom to webDrag0n's index page!");
+// alert("Welecom to webDrag0n's index page!");

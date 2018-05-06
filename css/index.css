@@ -4,7 +4,9 @@ body {
     font-size: 16px;
     line-height: 1;
     padding: 2em 2em 4em;
-    background-color: rgb(0, 43, 54);
+    /*background-color: rgb(0, 43, 54);*/
+    background-image: url("../assets/WD3Q33G.jpg");
+    background-size: 100%;
     max-width: 800px;
     /*box-shadow: 0 0 2px rgba(100, 100, 100, 0.6);*/
     margin: 0 auto;
@@ -32,11 +34,11 @@ footer
 
 a
 {
-    color: #486FB6FF;
+    color: #915016FF;
 }
 
-a:link { text-decoration: none;color: #486FB6FF}
-a:visited { text-decoration: none;color: #486FB6FF}
+a:link { text-decoration: none;color: #F8E506FF}
+a:visited { text-decoration: none;color: #F8E506FF}
 a:hover { text-decoration: none;color: red} 
 a:active { text-decoration: blink}
 
@@ -85,6 +87,7 @@ a:active { text-decoration: blink}
     float: left;
     width: 70%;
     height: 300px;
+    /*background-color: rgb(0, 43, 54);*/
     background-size: 100% auto;
 }
 
