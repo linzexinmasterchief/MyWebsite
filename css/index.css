@@ -37,8 +37,8 @@ a
     color: #915016FF;
 }
 
-a:link { text-decoration: none;color: #F8E506FF}
-a:visited { text-decoration: none;color: #F8E506FF}
+a:link { text-decoration: none;color: rgb(0, 59, 70)}
+a:visited { text-decoration: none;color: rgb(0, 59, 70)}
 a:hover { text-decoration: none;color: red} 
 a:active { text-decoration: blink}
 
